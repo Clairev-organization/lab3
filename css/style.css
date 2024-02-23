@@ -40,6 +40,7 @@ table {
 
 /* Normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
+/*forms*/
 
 button, input, optgroup, select, textarea {
     font-family: sans-serif;
@@ -116,12 +117,14 @@ textarea {
     font: inherit;
 }
 
-/* Responsive Media */
+/*responsive media*/
 
 img, audio, video {
     display: block;
     max-width: 100%;
 }
+
+/*base styles*/
 
 html {
     font-size: 1.375em;
@@ -133,6 +136,8 @@ html {
 label {
     display: block;
 }
+
+/*layout,state,custom*/
 
 form {
     max-width: 320px;
